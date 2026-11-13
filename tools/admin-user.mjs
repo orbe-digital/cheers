@@ -52,15 +52,20 @@ async function encrypt(secret, password) {
   return { iter: ITER, salt: b64(salt), iv: b64(iv), data: b64(data) };
 }
 
+// Em tokens fine-grained, "permissions" de GET /repos reflete a CONTA, não o token.
+// Por isso o teste de escrita cria um blob solto: exige Contents: write, mas não gera commit
+// nem altera arquivo nenhum (o GitHub descarta blobs não referenciados).
 async function checkToken(token, repo) {
+  const headers = { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
   try {
-    const r = await fetch(`https://api.github.com/repos/${repo}`, {
-      headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' } });
+    const r = await fetch(`https://api.github.com/repos/${repo}/git/blobs`, {
+      method: 'POST', headers, body: JSON.stringify({ content: 'teste de permissão do painel', encoding: 'utf-8' }) });
+    if (r.ok) return null;
     if (r.status === 401) return 'Token inválido ou expirado.';
-    if (r.status === 404) return `O token não tem acesso ao repositório ${repo}.`;
-    const j = await r.json();
-    if (!j.permissions?.push) return 'O token só tem leitura. Ele precisa de "Contents: Read and write".';
-    return null;
+    if (r.status === 404) return `O token não enxerga o repositório ${repo}. Em "Repository access", escolha "Only select repositories" e marque-o.`;
+    if (r.status === 403) return 'O token não tem permissão de escrita. Em "Repository access" use "Only select repositories" ' +
+      `(não "Public repositories") com ${repo}, e em "Repository permissions" → "Contents" escolha "Read and write".`;
+    return `O GitHub respondeu ${r.status}: ${(await r.json().catch(() => ({}))).message || ''}`;
   } catch {
     console.warn('Aviso: não foi possível validar o token agora (sem internet?). Continuando.');
     return null;

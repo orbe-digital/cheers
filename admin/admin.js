@@ -92,9 +92,17 @@ async function gh(path, opts = {}) {
     },
   });
   if (!r.ok) {
-    const e = new Error(r.status === 401
+    const detail = (await r.json().catch(() => ({}))).message || '';
+    console.error('GitHub', r.status, detail);
+    const msg = r.status === 401
       ? 'O acesso ao GitHub expirou ou foi revogado. Peça ao responsável pelo site para gerar um novo token.'
-      : `O GitHub recusou a operação (erro ${r.status}).`);
+      : r.status === 403 && /rate limit/i.test(detail)
+        ? 'Limite de uso da API do GitHub atingido. Tente de novo em alguns minutos.'
+        : r.status === 403
+          ? 'O token deste usuário não tem permissão de escrita no repositório (precisa de "Contents: Read and write"). ' +
+            'Peça ao responsável pelo site para gerar um novo token e recadastrar o usuário.'
+          : `O GitHub recusou a operação (erro ${r.status}${detail ? `: ${detail}` : ''}).`;
+    const e = new Error(msg);
     e.status = r.status;
     throw e;
   }
