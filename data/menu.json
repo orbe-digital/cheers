@@ -1,0 +1,1656 @@
+{
+  "categories": [
+    {
+      "id": "entradas",
+      "title": "Entradas",
+      "img": "assets/fondue.jpg",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Trinca",
+              "price": "49,90",
+              "desc": "Presunto de parma, salaminho temperado, azeitonas verdes e pretas."
+            },
+            {
+              "name": "Tábua Quatro Queijos",
+              "price": "84,90",
+              "desc": "Queijo parmesão, queijo gorgonzola, queijo brie, queijo provolone, mel de rapadura e geleia de pimenta."
+            },
+            {
+              "name": "Coalho Adocicado",
+              "price": "33,90",
+              "desc": "Fatias de queijo coalho grelhado, cobertas com geleia de pimenta."
+            },
+            {
+              "name": "Provoleta",
+              "price": "44,90",
+              "desc": "Fatias de queijo provolone grelhado, cobertas com azeite de ervas, acompanhado de torradas da casa."
+            },
+            {
+              "name": "Brie Folhado",
+              "price": "79,90",
+              "desc": "Queijo brie envolto na massa folhada, coberto com geleia de damasco, acompanhado de torradas da casa."
+            },
+            {
+              "name": "Mignon na Fonduta Trufada",
+              "price": "77,90",
+              "desc": "Cubos de filé mignon marinados e salteados na manteiga de ervas, fonduta de parmesão e toque de azeite trufado. Acompanhado de torradas da casa.",
+              "tag": "Destaque"
+            },
+            {
+              "name": "Camarão na Fonduta Trufada",
+              "price": "99,90",
+              "desc": "Filé de camarão marinados e salteados na manteiga de ervas, fonduta de parmesão e toque de azeite trufado. Acompanhado de torradas da casa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "petiscos",
+      "title": "Petiscos",
+      "img": "assets/croquetes.jpg",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Amostradinho de Carne de Sol",
+              "price": "44,90",
+              "desc": "Purê de macaxeira cremoso, carne de sol desfiada e salteada na manteiga da terra, cebola roxa, queijo coalho gratinado e pixaim de carne de sol."
+            },
+            {
+              "name": "Croquete de Carne de Sol",
+              "price": "42,90",
+              "desc": "Massa à base de farinha de trigo e fundo aromatizante de legumes, envolvida com carne de sol desfiada, acompanhados com creme de nata e coentro."
+            },
+            {
+              "name": "Croquete de Camarão",
+              "price": "62,90",
+              "desc": "Massa à base de farinha de trigo e fundo aromatizante de legumes, envolvida com pedaços de filé de camarão, acompanhados com maionese de limão siciliano."
+            },
+            {
+              "name": "Frango à Passarinha",
+              "price": "39,90",
+              "desc": "Coxa e sobrecoxa marinada, frita sob imersão e salteadas no alho e óleo. Acompanha torradas e maionese grill."
+            },
+            {
+              "name": "Frango Crocante",
+              "price": "39,90",
+              "desc": "Iscas de coxa e sobrecoxa de frango desossada e marinada, fritas sob imersão, acompanhado de molho barbecue."
+            },
+            {
+              "name": "Iscas de Frango",
+              "price": "34,90",
+              "desc": "Tiras de filé de frango empanadas fritas sob imersão, acompanhado de molho rosé."
+            },
+            {
+              "name": "Camarão Alho e Óleo",
+              "price": "69,90",
+              "desc": "Filé de camarão salteados no alho e óleo."
+            },
+            {
+              "name": "Camarão Croc",
+              "price": "64,90",
+              "desc": "Filé de camarão marinado ao leite de coco, empanado com farinha panko e frito sob imersão, acompanhado de maionese de limão siciliano."
+            },
+            {
+              "name": "Picanha Importada na Chapa",
+              "variants": [
+                {
+                  "label": "Serve 2 pessoas",
+                  "price": "179,90"
+                },
+                {
+                  "label": "Serve 4 pessoas",
+                  "price": "319,90"
+                }
+              ],
+              "desc": "Cortes de picanha especial grelhada na chapa, acompanhada de batata canoa e cebolas douradas.",
+              "tag": "Para compartilhar"
+            },
+            {
+              "name": "Picanha Cheese",
+              "price": "182,90",
+              "desc": "Tiras de picanha importada salteadas na manteiga da terra com cebola, acompanhada de batata canoa frita, creme de cheddar com catupiry e alho."
+            },
+            {
+              "name": "Costela Suína",
+              "price": "74,90",
+              "desc": "Carne suína com osso, marinada, cozida no vapor e frita sob imersão, acompanhada de batata canoa e molho barbecue."
+            },
+            {
+              "name": "Suíno à Passarinha",
+              "price": "54,90",
+              "desc": "Pedaços de costela suína marinados e fritos sob imersão, acompanhado de maionese de limão e batata frita."
+            },
+            {
+              "name": "Filé com Fritas",
+              "price": "89,90",
+              "desc": "Tiras de filé mignon salteados ao molho madeira, acompanhado de batata frita."
+            },
+            {
+              "name": "Batata Cheers",
+              "price": "41,90",
+              "desc": "Batatas canoa fritas e temperadas com manteiga de ervas, bacon e queijo provolone.",
+              "tag": "Da casa"
+            },
+            {
+              "name": "Batata Frita",
+              "price": "24,90",
+              "desc": "Batata palito frita, acompanhada de molho rosé."
+            },
+            {
+              "name": "Torresmo Mineiro",
+              "price": "29,90",
+              "desc": "Barriga de suíno super crocante, frita sob imersão."
+            }
+          ]
+        },
+        {
+          "title": "Caldinhos",
+          "compact": true,
+          "items": [
+            {
+              "name": "Feijão",
+              "price": "19,90"
+            },
+            {
+              "name": "Peixe",
+              "price": "22,90"
+            },
+            {
+              "name": "Camarão",
+              "price": "24,90"
+            }
+          ]
+        },
+        {
+          "title": "Pastéis",
+          "compact": true,
+          "items": [
+            {
+              "name": "Carne com Azeitonas",
+              "price": "24,90"
+            },
+            {
+              "name": "Coalho com Orégano",
+              "price": "24,90"
+            },
+            {
+              "name": "Camarão com Catupiry",
+              "price": "34,90"
+            },
+            {
+              "name": "Carne de Sol na Nata",
+              "price": "24,90"
+            },
+            {
+              "name": "Frango com Bacon",
+              "price": "24,90"
+            }
+          ]
+        },
+        {
+          "title": "Adicionais",
+          "compact": true,
+          "items": [
+            {
+              "name": "Arroz",
+              "price": "11,90"
+            },
+            {
+              "name": "Feijão",
+              "price": "11,90"
+            },
+            {
+              "name": "Espaguete",
+              "price": "11,90"
+            },
+            {
+              "name": "Farofa",
+              "price": "9,90"
+            },
+            {
+              "name": "Torradas",
+              "price": "9,90"
+            },
+            {
+              "name": "Ovo inteiro",
+              "price": "3,90"
+            },
+            {
+              "name": "Purê de Batatas",
+              "price": "12,90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carnes",
+      "title": "Carnes",
+      "group": "Pratos principais",
+      "img": "assets/risoto-file.jpg",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Picanha Importada",
+              "price": "79,90",
+              "desc": "Corte de picanha especial grelhado, acompanhado de arroz de alho e batata canoa."
+            },
+            {
+              "name": "Filé ao Dijon",
+              "price": "74,90",
+              "desc": "Medalhões de filé mignon marinados e grelhados, cobertos com molho à base de mostarda dijon, acompanhados de arroz cremoso com queijo mussarela e presunto de parma crocante.",
+              "tag": "Destaque"
+            },
+            {
+              "name": "Bife Amadeirado",
+              "price": "42,90",
+              "desc": "Bife de carne bovina marinado e grelhado, coberto com molho madeira, acompanhado de arroz cremoso de queijo parmesão e batata frita."
+            },
+            {
+              "name": "Filé à Parmegiana",
+              "price": "53,90",
+              "desc": "Bife de filé mignon marinado, empanado e frito, coberto com nosso molho de tomate artesanal e queijo mussarela maçaricado, acompanhado de espaguete ao mesmo molho e batata frita."
+            },
+            {
+              "name": "Bife à Parmegiana",
+              "price": "99,90",
+              "desc": "Serve 3 pessoas. Bife bovino marinado, empanado e frito, coberto com nosso molho de tomate artesanal e queijo mussarela maçaricado, acompanhado de espaguete ao mesmo molho e batata frita.",
+              "tag": "Serve 3"
+            },
+            {
+              "name": "Bife Grelhado",
+              "price": "34,90",
+              "desc": "Bife bovino grelhado, acompanhado de arroz branco, feijão no caldo, farofa e vinagrete."
+            },
+            {
+              "name": "Carne de Sol na Nata",
+              "price": "36,90",
+              "desc": "Carne de sol desfiada e salteada na manteiga da terra com cebolas roxas e creme de nata, acompanhada de arroz de leite, feijão verde, farofa e vinagrete."
+            },
+            {
+              "name": "Baião de Dois",
+              "variants": [
+                {
+                  "label": "Individual",
+                  "price": "44,90"
+                },
+                {
+                  "label": "Serve 4 pessoas",
+                  "price": "99,90"
+                }
+              ],
+              "desc": "Carne de charque salteada na manteiga da terra com cebolas roxas em tiras, feijão carioca, arroz branco e queijo coalho em cubos."
+            },
+            {
+              "name": "Porpetone à Italiana",
+              "price": "39,90",
+              "desc": "Blend de carne bovina recheado com queijo mussarela, empanado e frito sob imersão, coberto com molho de tomate artesanal, acompanhado de espaguete ao alho e óleo."
+            },
+            {
+              "name": "Espaguete à Bolonhesa",
+              "price": "32,90",
+              "desc": "Espaguete cozido e salteado ao alho e óleo, molho de tomate artesanal com carne moída e queijo parmesão."
+            },
+            {
+              "name": "Almôndegas",
+              "variants": [
+                {
+                  "label": "Individual",
+                  "price": "32,90"
+                },
+                {
+                  "label": "Serve 3 pessoas",
+                  "price": "79,90"
+                }
+              ],
+              "desc": "Bolinhos de carne ensopados no molho de tomate artesanal com espaguete."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frangos",
+      "title": "Frangos",
+      "group": "Pratos principais",
+      "img": "assets/frango-espaguete.jpg",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Frango à Parmegiana",
+              "price": "26,90",
+              "desc": "Filé de frango marinado, empanado e frito, coberto com nosso molho de tomate artesanal e queijo mussarela maçaricado, acompanhado de arroz e purê."
+            },
+            {
+              "name": "Frango à Parmegiana (Serve 3)",
+              "price": "79,90",
+              "desc": "Filé de frango marinado, empanado e frito, coberto com nosso molho de tomate artesanal e queijo mussarela maçaricado, acompanhado de espaguete ao mesmo molho e batata frita.",
+              "tag": "Serve 3"
+            },
+            {
+              "name": "Frango à Cubana",
+              "price": "32,90",
+              "desc": "Filé de frango marinado, empanado e frito, acompanhado de arroz à grega, banana empanada e purê de batatas."
+            },
+            {
+              "name": "Frango Crispy",
+              "price": "29,90",
+              "desc": "Iscas de coxa e sobrecoxa de frango desossada, marinada, empanada e frita, acompanhada de espaguete ao quatro queijos."
+            },
+            {
+              "name": "Filé de Frango",
+              "price": "29,90",
+              "desc": "Filé de frango grelhado, acompanhado de arroz branco, salada e feijão no caldo."
+            },
+            {
+              "name": "Strogonoff de Frango",
+              "price": "22,90",
+              "desc": "Iscas de filé de frango salteadas com cogumelos champignon ao creme flambado com conhaque, acompanhado de arroz branco e batata palha."
+            },
+            {
+              "name": "Frango Grelhado",
+              "price": "29,90",
+              "desc": "Filé de frango grelhado, acompanhado de arroz integral com brócolis e salada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frutos-do-mar",
+      "title": "Frutos do Mar",
+      "group": "Pratos principais",
+      "img": "assets/risoto-camarao.jpg",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Risoto de Camarão",
+              "price": "69,90",
+              "desc": "Filé de camarão salteado com manteiga de camarão da casa, arroz arbóreo cremoso, cubos de tomate e queijo parmesão curado."
+            },
+            {
+              "name": "Camarão aos Queijos",
+              "price": "49,90",
+              "desc": "Filé de camarão salteado e ensopado com molho de queijos especiais, acompanhado de fettuccine alho e óleo."
+            },
+            {
+              "name": "Camarão Internacional do Empório",
+              "variants": [
+                {
+                  "label": "Individual",
+                  "price": "74,90"
+                },
+                {
+                  "label": "Serve 3 pessoas",
+                  "price": "159,90"
+                }
+              ],
+              "desc": "Filé de camarão salteado na manteiga de ervas com arroz, presunto, azeitonas, tomate seco, salsinha, queijo parmesão, queijo mussarela, creme de leite e queijo catupiry, acompanhado de batata palha.",
+              "tag": "Assinatura"
+            },
+            {
+              "name": "Peixe à Dorê",
+              "price": "54,90",
+              "desc": "Filé de pescada amarela marinado com ervas, envolvido no creme de ovo e frito, acompanhado de arroz cremoso de limão e legumes salteados."
+            },
+            {
+              "name": "Camarões Panko",
+              "price": "54,90",
+              "desc": "Filé de camarão marinado e empanado na farinha panko, frito sob imersão, acompanhado de risoto cremoso de queijo parmesão."
+            },
+            {
+              "name": "Salmão Grelhado",
+              "price": "89,90",
+              "desc": "Filé de salmão grelhado com manteiga de ervas, acompanhado de risoto de brie com damasco."
+            },
+            {
+              "name": "Camarão Grelhado",
+              "price": "45,90",
+              "desc": "Filé de camarão marinado e grelhado, acompanhado de arroz branco e salada."
+            },
+            {
+              "name": "Peixe Grelhado",
+              "price": "45,90",
+              "desc": "Filé de pescada amarela marinado ao limão e grelhado, acompanhado de arroz integral com cenoura ralada e purê de batata."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saladas-veganos",
+      "title": "Saladas & Veganos",
+      "group": "Pratos principais",
+      "img": "assets/salada.jpg",
+      "blocks": [
+        {
+          "title": "Salada",
+          "items": [
+            {
+              "name": "Salada Cheers",
+              "price": "24,90",
+              "desc": "Mix de folhas com tomates-cereja, croutons, picles de cebola roxa e molho cheers."
+            }
+          ]
+        },
+        {
+          "title": "Adicione uma proteína (100g)",
+          "compact": true,
+          "items": [
+            {
+              "name": "Carne",
+              "price": "15,90"
+            },
+            {
+              "name": "Frango",
+              "price": "12,90"
+            },
+            {
+              "name": "Camarão",
+              "price": "27,90"
+            }
+          ]
+        },
+        {
+          "title": "Veganos",
+          "items": [
+            {
+              "name": "Risoto Vegano",
+              "price": "36,90",
+              "desc": "Cogumelos champignon salteados com ervas finas e caldo de legumes artesanal, arroz arbóreo cremoso, alho-poró e cebola roxa.",
+              "tag": "Vegano"
+            },
+            {
+              "name": "Strogonoff de Banana da Terra",
+              "price": "36,90",
+              "desc": "Rodelas de banana da terra salteadas com cogumelos champignon ao creme de aveia com molho de tomate artesanal e mostarda. Acompanhado de arroz branco e batata palha.",
+              "tag": "Vegano"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sobremesas",
+      "title": "Sobremesas",
+      "img": "assets/sobremesa.jpg",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Cartola Caramelizada",
+              "price": "34,90",
+              "desc": "Banana grelhada com açúcar, canela e queijo de manteiga envolto na massa de crepe doce, coberta de açúcar caramelizado na mesa.",
+              "tag": "Na mesa"
+            },
+            {
+              "name": "Brownie",
+              "price": "24,90",
+              "desc": "Fatia de brownie quente, recheado com chocolate, servido com uma bola de sorvete de creme e coberto de calda de nutella."
+            },
+            {
+              "name": "Petit Gateau",
+              "price": "29,90",
+              "desc": "Bolinho de chocolate com sorvete de creme e calda de chocolate."
+            },
+            {
+              "name": "Le Chocolat",
+              "price": "34,90",
+              "desc": "Esfera de chocolate recheada com sorvete de creme, geleia de morango, farofa de castanha e crocante de amendoim, acompanhada de calda de chocolate quente."
+            },
+            {
+              "name": "Banoffee",
+              "price": "19,90",
+              "desc": "Bananas em rodelas com doce de leite, açúcar, canela e chantilly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lanches",
+      "title": "Lanches",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Queijo Quente",
+              "price": "9,90",
+              "desc": "Pão de caixa assado e recheado com queijo mussarela gratinado."
+            },
+            {
+              "name": "Misto Quente",
+              "price": "8,90",
+              "desc": "Pão de caixa assado e recheado com queijo e presunto gratinado."
+            },
+            {
+              "name": "Americano",
+              "price": "16,90",
+              "desc": "Pão de caixa assado e recheado com queijo, presunto, ovo frito e salada."
+            },
+            {
+              "name": "Mercadão",
+              "price": "19,90",
+              "desc": "Pão francês assado recheado com bastante mortadela defumada e queijo mussarela gratinado."
+            },
+            {
+              "name": "Pão na Chapa",
+              "price": "4,90",
+              "desc": "Pão francês com manteiga tostado na chapa."
+            },
+            {
+              "name": "Churras no Pão",
+              "price": "29,90",
+              "desc": "Fatia dupla de pão de caixa grelhado, recheado com contrafilé grelhado, molho branco e catupiry."
+            },
+            {
+              "name": "Frango Cheers",
+              "price": "21,90",
+              "desc": "Fatias de pão de caixa tostadas na chapa, recheado com creme de frango, catupiry, cenoura e salada."
+            },
+            {
+              "name": "Cheers Burguer",
+              "price": "34,90",
+              "desc": "Pão bola assado na chapa, recheado com blend de carne bovina com queijo mussarela, grelhado na chapa, salada, molho rosé e presunto de parma crocante.",
+              "tag": "Da casa"
+            }
+          ]
+        },
+        {
+          "title": "Tapioca com Manteiga · R$ 3,90",
+          "note": "Acompanha vinagrete. Adicionais:",
+          "compact": true,
+          "items": [
+            {
+              "name": "Frango desfiado com bacon",
+              "price": "16,90"
+            },
+            {
+              "name": "Frango desfiado",
+              "price": "11,90"
+            },
+            {
+              "name": "Carne de sol na nata",
+              "price": "16,90"
+            },
+            {
+              "name": "Carne acebolada",
+              "price": "14,90"
+            },
+            {
+              "name": "Calabresa acebolada",
+              "price": "12,90"
+            },
+            {
+              "name": "Queijo coalho",
+              "price": "13,90"
+            },
+            {
+              "name": "Ovo",
+              "price": "3,90"
+            }
+          ]
+        },
+        {
+          "title": "Crepiocas",
+          "note": "Acompanha vinagrete.",
+          "compact": true,
+          "items": [
+            {
+              "name": "Frango desfiado com bacon",
+              "price": "21,90"
+            },
+            {
+              "name": "Frango desfiado",
+              "price": "15,90"
+            },
+            {
+              "name": "Carne de sol na nata",
+              "price": "21,90"
+            },
+            {
+              "name": "Carne acebolada",
+              "price": "19,90"
+            },
+            {
+              "name": "Calabresa acebolada",
+              "price": "17,90"
+            },
+            {
+              "name": "Queijo coalho",
+              "price": "18,90"
+            },
+            {
+              "name": "Ovo",
+              "price": "3,90"
+            }
+          ]
+        },
+        {
+          "title": "Cuscuz com Manteiga · R$ 4,90",
+          "note": "Acompanha vinagrete. Adicionais:",
+          "compact": true,
+          "items": [
+            {
+              "name": "Frango desfiado com bacon",
+              "price": "16,90"
+            },
+            {
+              "name": "Frango desfiado",
+              "price": "11,90"
+            },
+            {
+              "name": "Carne de sol na nata",
+              "price": "16,90"
+            },
+            {
+              "name": "Carne acebolada",
+              "price": "14,90"
+            },
+            {
+              "name": "Calabresa acebolada",
+              "price": "12,90"
+            },
+            {
+              "name": "Ovo mexido ou frito",
+              "price": "3,90"
+            },
+            {
+              "name": "Charque acebolada",
+              "price": "14,90"
+            },
+            {
+              "name": "Queijo coalho",
+              "price": "13,90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sucos-cafes",
+      "title": "Sucos, Cafés & Bebidas",
+      "blocks": [
+        {
+          "title": "Sucos",
+          "note": "Copo ou jarra.",
+          "items": [
+            {
+              "name": "Limão",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "10,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "22,90"
+                }
+              ]
+            },
+            {
+              "name": "Laranja",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "11,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "23,90"
+                }
+              ]
+            },
+            {
+              "name": "Morango",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "12,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Laranja com Morango",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "16,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "26,90"
+                }
+              ]
+            },
+            {
+              "name": "Abacaxi",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "11,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "22,90"
+                }
+              ]
+            },
+            {
+              "name": "Abacaxi com Hortelã",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "13,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Maracujá",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "12,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "22,90"
+                }
+              ]
+            },
+            {
+              "name": "Limonada Suíça",
+              "variants": [
+                {
+                  "label": "Copo",
+                  "price": "17,90"
+                },
+                {
+                  "label": "Jarra",
+                  "price": "29,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cafés",
+          "compact": true,
+          "items": [
+            {
+              "name": "Café coado pequeno",
+              "price": "2,00"
+            },
+            {
+              "name": "Café coado grande",
+              "price": "4,00"
+            },
+            {
+              "name": "Café expresso pequeno",
+              "price": "6,00"
+            },
+            {
+              "name": "Café expresso grande",
+              "price": "10,00"
+            },
+            {
+              "name": "Café com leite",
+              "price": "8,00"
+            },
+            {
+              "name": "Cappuccino",
+              "price": "12,00"
+            }
+          ]
+        },
+        {
+          "title": "Águas",
+          "compact": true,
+          "items": [
+            {
+              "name": "Com gás 500ml",
+              "price": "6,00"
+            },
+            {
+              "name": "Sem gás 500ml",
+              "price": "4,00"
+            },
+            {
+              "name": "Tônica",
+              "price": "6,50"
+            }
+          ]
+        },
+        {
+          "title": "Refrigerantes lata",
+          "compact": true,
+          "items": [
+            {
+              "name": "Guaraná Antarctica",
+              "price": "7,00"
+            },
+            {
+              "name": "Coca-Cola",
+              "price": "7,00"
+            },
+            {
+              "name": "Fanta",
+              "price": "7,00"
+            },
+            {
+              "name": "Soda",
+              "price": "7,00"
+            },
+            {
+              "name": "Sprite",
+              "price": "7,00"
+            },
+            {
+              "name": "Pepsi",
+              "price": "7,00"
+            },
+            {
+              "name": "H2O",
+              "price": "7,50"
+            }
+          ]
+        },
+        {
+          "title": "Energéticos",
+          "compact": true,
+          "items": [
+            {
+              "name": "Red Bull 250ml",
+              "price": "14,90"
+            },
+            {
+              "name": "Red Bull Sabores 250ml",
+              "price": "16,90"
+            },
+            {
+              "name": "Monster 473ml",
+              "price": "16,90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "title": "Drinks",
+      "blocks": [
+        {
+          "title": "Caipiroska",
+          "compact": true,
+          "items": [
+            {
+              "name": "Smirnoff + limão",
+              "price": "21,90"
+            },
+            {
+              "name": "Smirnoff + morango, abacaxi, maracujá ou kiwi",
+              "price": "24,90"
+            },
+            {
+              "name": "Smirnoff + duas frutas",
+              "price": "32,90"
+            },
+            {
+              "name": "Absolut + limão",
+              "price": "26,90"
+            },
+            {
+              "name": "Absolut + morango, abacaxi, maracujá ou kiwi",
+              "price": "31,90"
+            },
+            {
+              "name": "Absolut + duas frutas",
+              "price": "36,90"
+            }
+          ]
+        },
+        {
+          "title": "Caipirinha",
+          "compact": true,
+          "items": [
+            {
+              "name": "Limão",
+              "price": "14,90"
+            },
+            {
+              "name": "Morango, abacaxi, maracujá ou kiwi",
+              "price": "16,90"
+            },
+            {
+              "name": "Duas frutas",
+              "price": "19,90"
+            }
+          ]
+        },
+        {
+          "title": "Autorais & clássicos",
+          "items": [
+            {
+              "name": "Lemon 43",
+              "price": "36,90",
+              "desc": "Licor 43, sumo de limão, schweppes e gelo."
+            },
+            {
+              "name": "Big Father",
+              "price": "44,90",
+              "desc": "Black Label, conhaque, licor de maçã verde e água com gás."
+            },
+            {
+              "name": "Junino",
+              "price": "32,90",
+              "desc": "Conhaque, leite condensado, creme de leite e paçoca."
+            },
+            {
+              "name": "Lagoa Azul",
+              "price": "22,90",
+              "desc": "Vodka, curaçau blue, sumo de limão e soda."
+            },
+            {
+              "name": "Nebulosa",
+              "price": "29,90",
+              "desc": "Vodka, licor de cassis, fanta uva e glíter comestível."
+            },
+            {
+              "name": "Ilha da Magia",
+              "price": "29,90",
+              "desc": "Gin, licor de kiwi, sumo de limão e glíter comestível."
+            },
+            {
+              "name": "Alexandre",
+              "price": "34,90",
+              "desc": "Conhaque, leite condensado, licor de chocolate e creme de leite."
+            },
+            {
+              "name": "Amarula Cream",
+              "price": "39,90",
+              "desc": "Amarula, vodka e maracujá."
+            },
+            {
+              "name": "Moscow Mule",
+              "price": "36,90",
+              "desc": "Vodka, xarope de gengibre, sumo de limão e espuma de gengibre."
+            },
+            {
+              "name": "Gin Frutada",
+              "price": "29,90",
+              "desc": "Gin, tônica, xarope e frutas."
+            },
+            {
+              "name": "Gin Pitaia",
+              "price": "34,90",
+              "desc": "Gin, tônica e pitaia."
+            },
+            {
+              "name": "Gin Tônica",
+              "variants": [
+                {
+                  "label": "Nacional",
+                  "price": "26,90"
+                },
+                {
+                  "label": "Importada",
+                  "price": "39,90"
+                }
+              ],
+              "desc": "Gin, água tônica, limão siciliano e gelo."
+            },
+            {
+              "name": "Dry Martini",
+              "price": "26,90",
+              "desc": "Martini extra dry, gin e limão."
+            },
+            {
+              "name": "Mojito",
+              "price": "22,90",
+              "desc": "Rum Montilla cristal, sumo de limão, soda e hortelã."
+            },
+            {
+              "name": "Coquetel sem Álcool",
+              "price": "22,90",
+              "desc": "Escolha sua fruta.",
+              "tag": "Sem álcool"
+            },
+            {
+              "name": "Marguerita",
+              "price": "29,90",
+              "desc": "Tequila, cointreau, sumo de limão e licor de laranja."
+            },
+            {
+              "name": "Sexy on the Beach",
+              "price": "32,90",
+              "desc": "Vodka, licor de pêssego e suco de laranja."
+            },
+            {
+              "name": "Piña Colada",
+              "price": "29,90",
+              "desc": "Abacaxi, rum Montilla, creme de leite, leite condensado, leite de coco e coco ralado."
+            },
+            {
+              "name": "Soda Italiana",
+              "price": "19,90",
+              "desc": "Xarope de fruta e água com gás.",
+              "tag": "Sem álcool"
+            },
+            {
+              "name": "Cozumel",
+              "price": "34,90",
+              "desc": "Corona, limão e sal."
+            },
+            {
+              "name": "Cosmopolitan",
+              "price": "34,90",
+              "desc": "Vodka, licor de laranja e cranberry."
+            },
+            {
+              "name": "Brandy",
+              "price": "34,90",
+              "desc": "Licor Amarula, conhaque e creme de leite."
+            },
+            {
+              "name": "Barbie Drink",
+              "price": "29,90",
+              "desc": "Vodka, soda, xarope de morango e chantilly."
+            },
+            {
+              "name": "Blueblend",
+              "price": "36,90",
+              "desc": "Licor de pêssego, whisky e limão siciliano."
+            },
+            {
+              "name": "Tropicalia",
+              "price": "32,90",
+              "desc": "Cachaça, limão siciliano, manjericão e maracujá."
+            },
+            {
+              "name": "Campari Tônica",
+              "price": "22,90",
+              "desc": "Campari e água tônica."
+            },
+            {
+              "name": "Negroni",
+              "price": "36,90",
+              "desc": "Gin, campari e martini rosso."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cervejas",
+      "title": "Cervejas",
+      "blocks": [
+        {
+          "items": [
+            {
+              "name": "Budweiser",
+              "variants": [
+                {
+                  "label": "Garrafa 600ml",
+                  "price": "13,90"
+                },
+                {
+                  "label": "Long neck",
+                  "price": "9,90"
+                }
+              ]
+            },
+            {
+              "name": "Heineken",
+              "variants": [
+                {
+                  "label": "Garrafa 600ml",
+                  "price": "18,90"
+                },
+                {
+                  "label": "Long neck",
+                  "price": "10,90"
+                },
+                {
+                  "label": "Long neck zero",
+                  "price": "10,90"
+                }
+              ]
+            },
+            {
+              "name": "Spaten",
+              "variants": [
+                {
+                  "label": "Garrafa 600ml",
+                  "price": "15,90"
+                },
+                {
+                  "label": "Long neck",
+                  "price": "9,90"
+                }
+              ]
+            },
+            {
+              "name": "Stella Artois",
+              "variants": [
+                {
+                  "label": "Garrafa 600ml",
+                  "price": "16,90"
+                },
+                {
+                  "label": "Long neck",
+                  "price": "10,90"
+                }
+              ]
+            },
+            {
+              "name": "Original",
+              "variants": [
+                {
+                  "label": "Garrafa 600ml",
+                  "price": "14,90"
+                }
+              ]
+            },
+            {
+              "name": "Coronita",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "9,90"
+                }
+              ]
+            },
+            {
+              "name": "Corona",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "12,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Drinks prontos",
+          "compact": true,
+          "items": [
+            {
+              "name": "Skol Beats Senses · long neck",
+              "price": "12,90"
+            },
+            {
+              "name": "Skol Beats Red Mix · long neck",
+              "price": "12,90"
+            },
+            {
+              "name": "Skol Beats GT · long neck",
+              "price": "12,90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "destilados",
+      "title": "Destilados",
+      "blocks": [
+        {
+          "title": "Whisky",
+          "items": [
+            {
+              "name": "Johnnie Walker Gold",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "499,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "39,90"
+                }
+              ]
+            },
+            {
+              "name": "Johnnie Walker Black",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "299,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Johnnie Walker Red",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "179,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "19,90"
+                }
+              ]
+            },
+            {
+              "name": "Buchanan's 12 Anos",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "389,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "29,90"
+                }
+              ]
+            },
+            {
+              "name": "Old Parr",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "299,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Black & White",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "119,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "14,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vodka",
+          "items": [
+            {
+              "name": "Grey Goose",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "299,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Cîroc",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "319,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "26,90"
+                }
+              ]
+            },
+            {
+              "name": "Absolut",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "179,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "19,90"
+                }
+              ]
+            },
+            {
+              "name": "Smirnoff",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "99,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "10,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gin",
+          "items": [
+            {
+              "name": "Tanqueray",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "199,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Bombay",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "189,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "22,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tequila",
+          "items": [
+            {
+              "name": "José Cuervo Silver",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "289,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "22,90"
+                }
+              ]
+            },
+            {
+              "name": "José Cuervo Gold",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "289,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "22,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Destilados diversos",
+          "items": [
+            {
+              "name": "Campari",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "99,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "10,90"
+                }
+              ]
+            },
+            {
+              "name": "Aperol",
+              "variants": [
+                {
+                  "label": "Garrafa",
+                  "price": "129,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "15,90"
+                }
+              ]
+            },
+            {
+              "name": "Rum Montilla",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "74,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "9,90"
+                }
+              ]
+            },
+            {
+              "name": "Rum Bacardi",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "119,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "14,90"
+                }
+              ]
+            },
+            {
+              "name": "Conhaque Domecq",
+              "variants": [
+                {
+                  "label": "Dose",
+                  "price": "15,90"
+                }
+              ]
+            },
+            {
+              "name": "Martini Bianco",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "79,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "9,90"
+                }
+              ]
+            },
+            {
+              "name": "Martini Rosé",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "99,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "10,90"
+                }
+              ]
+            },
+            {
+              "name": "Licor 43",
+              "variants": [
+                {
+                  "label": "700ml",
+                  "price": "299,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "22,90"
+                }
+              ]
+            },
+            {
+              "name": "Amarula",
+              "variants": [
+                {
+                  "label": "Dose",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Cointreau",
+              "variants": [
+                {
+                  "label": "Dose",
+                  "price": "24,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cachaça",
+          "items": [
+            {
+              "name": "Rainha",
+              "variants": [
+                {
+                  "label": "600ml",
+                  "price": "59,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "7,90"
+                }
+              ]
+            },
+            {
+              "name": "Salinas",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "109,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "7,90"
+                }
+              ]
+            },
+            {
+              "name": "Volúpia",
+              "variants": [
+                {
+                  "label": "Litro",
+                  "price": "79,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "6,90"
+                }
+              ]
+            },
+            {
+              "name": "Serra Preta",
+              "variants": [
+                {
+                  "label": "700ml",
+                  "price": "59,90"
+                },
+                {
+                  "label": "Dose",
+                  "price": "6,90"
+                }
+              ]
+            },
+            {
+              "name": "Serra Limpa",
+              "variants": [
+                {
+                  "label": "355ml",
+                  "price": "59,90"
+                }
+              ]
+            },
+            {
+              "name": "Matuta Abelha Rainha",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Matuta Umburana",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Matuta Bálsamo",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Matuta Canela",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "24,90"
+                }
+              ]
+            },
+            {
+              "name": "Matuta Cristal",
+              "variants": [
+                {
+                  "label": "Long neck",
+                  "price": "19,90"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "note": "Taxa de rolha: R$ 100,00.",
+          "items": []
+        }
+      ]
+    }
+  ]
+}
