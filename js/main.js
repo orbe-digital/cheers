@@ -7,6 +7,7 @@ const waURL = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(CONFIG
 document.querySelectorAll('.js-wa').forEach(a => a.href = waURL);
 document.querySelectorAll('.js-review').forEach(a => a.href = CONFIG.avaliacao);
 document.querySelectorAll('.js-ig').forEach(a => a.href = CONFIG.instagram);
+document.querySelectorAll('.js-maps').forEach(a => a.href = CONFIG.maps);
 document.getElementById('yr').textContent = new Date().getFullYear();
 
 /* ---------- Galeria ---------- */
