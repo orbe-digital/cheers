@@ -120,11 +120,6 @@
               "desc": "Carne suína com osso, marinada, cozida no vapor e frita sob imersão, acompanhada de batata canoa e molho barbecue."
             },
             {
-              "name": "Suíno à Passarinha",
-              "price": "54,90",
-              "desc": "Pedaços de costela suína marinados e fritos sob imersão, acompanhado de maionese de limão e batata frita."
-            },
-            {
               "name": "Filé com Fritas",
               "price": "89,90",
               "desc": "Tiras de filé mignon salteados ao molho madeira, acompanhado de batata frita."
@@ -139,11 +134,6 @@
               "name": "Batata Frita",
               "price": "24,90",
               "desc": "Batata palito frita, acompanhada de molho rosé."
-            },
-            {
-              "name": "Torresmo Mineiro",
-              "price": "29,90",
-              "desc": "Barriga de suíno super crocante, frita sob imersão."
             }
           ]
         },
@@ -237,8 +227,8 @@
           "items": [
             {
               "name": "Picanha Importada",
-              "price": "79,90",
-              "desc": "Corte de picanha especial grelhado, acompanhado de arroz de alho e batata canoa."
+              "desc": "Corte de picanha especial grelhado, acompanhado de arroz de alho e batata canoa.",
+              "price": "79,90"
             },
             {
               "name": "Filé ao Dijon",
@@ -1201,6 +1191,18 @@
             {
               "name": "Skol Beats GT · long neck",
               "price": "12,90"
+            },
+            {
+              "name": "Skol Beats Green Mix Lata",
+              "price": "10,90"
+            },
+            {
+              "name": "Skol Beats Pink Lemonade Lata",
+              "price": "10,90"
+            },
+            {
+              "name": "Skol Beats Red Mix Lata",
+              "price": "10,90"
             }
           ]
         }
