@@ -417,7 +417,8 @@
             },
             {
               "name": "Espaguete do Cheff",
-              "price": "49,90"
+              "price": "49,90",
+              "desc": "Camarão refogado na manteiga com Fettuccine com parmesão e salsinha"
             }
           ]
         }
