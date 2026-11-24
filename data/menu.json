@@ -410,6 +410,10 @@
               "name": "Peixe Grelhado",
               "price": "45,90",
               "desc": "Filé de pescada amarela marinado ao limão e grelhado, acompanhado de arroz integral com cenoura ralada e purê de batata."
+            },
+            {
+              "name": "Espaguete do Cheff",
+              "price": "49,90"
             }
           ]
         }
