@@ -135,6 +135,10 @@
               "name": "Batata Frita",
               "price": "24,90",
               "desc": "Batata palito frita, acompanhada de molho rosé."
+            },
+            {
+              "name": "Calabresa Acebolada com Fritas",
+              "price": "39,90"
             }
           ]
         },
