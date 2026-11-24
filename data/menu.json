@@ -30,7 +30,8 @@
             {
               "name": "Brie Folhado",
               "price": "79,90",
-              "desc": "Queijo brie envolto na massa folhada, coberto com geleia de damasco, acompanhado de torradas da casa."
+              "desc": "Queijo brie envolto na massa folhada, coberto com geleia de damasco, acompanhado de torradas da casa.",
+              "hidden": true
             },
             {
               "name": "Mignon na Fonduta Trufada",
